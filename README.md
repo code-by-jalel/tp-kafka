@@ -31,7 +31,7 @@ kafka-server-start.sh $KAFKA_HOME/config/kraft/server.properties
 ## 2. Build du projet
 
 ```bash
-git clone <url-du-repo>
+git clone https://github.com/code-by-jalel/tp-kafka.git
 cd kafka-pos-pipeline
 mvn clean package -q
 ```
