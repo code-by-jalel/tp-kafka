@@ -8,13 +8,11 @@ Pipeline de logs de caisses POS en temps réel avec Apache Kafka.
 |-------|-----------------|
 | Java  | 11              |
 | Maven | 3.8+            |
-| Kafka | 3.x (mode KRaft ou ZooKeeper) |
+| Kafka | 3.x (mode KRaft)|
 
 ---
 
 ## 1. Démarrage de Kafka (mono-broker)
-
-### Option A — Mode KRaft (sans ZooKeeper, Kafka ≥ 3.3)
 
 ```bash
 # Générer un UUID de cluster
